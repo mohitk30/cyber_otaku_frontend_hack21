@@ -22,3 +22,84 @@ body::-webkit-scrollbar-thumb {
     border-radius: 1px;
     border: 0.01px solid rgb(255, 255, 255);
 }
+
+
+/* nav bar */
+
+.nav-color {
+    background-color: #333333;
+    color: white;
+}
+
+.cart-icon {
+    left: 100px;
+}
+
+.spacing-nav {
+    margin-left: 20px;
+    border-bottom: 2px solid #333333;
+    overflow: hidden;
+}
+
+.spacing-nav:hover {
+    border-bottom: 2px solid rgb(245, 212, 212);
+    overflow: hidden;
+}
+
+.sign-in-green {
+    color: #42E452 !important;
+}
+
+.home-in-blue {
+    color: #5073ED !important;
+}
+
+
+
+
+
+
+/* ########################################### */
+
+
+/* footer */
+
+#footer {
+    background: url(images/footerimg.png);
+    min-height: 200px;
+    width: 99vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer-div {
+    color: white;
+}
+
+.copyright {
+    padding: 40px;
+}
+
+.address {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.social-icons {
+    padding: 40px;
+    overflow: hidden;
+}
+
+.icon-space {
+    padding: 10px;
+}
+
+.footer-div {
+    padding-left: 10vw;
+}
+
+.icon-space:hover {
+    transform: translateY(-4px);
+}
