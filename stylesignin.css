@@ -82,6 +82,7 @@
         background: #FFFFFF;
         border-radius: 16px;
         margin-top: 82px;
+        padding-bottom: 40px;
     }
     
     .sign-in-heading-div {
@@ -125,7 +126,7 @@
     #footer {
         background: url(images/footerimg.png);
         min-height: 200px;
-        width: 99vw;
+        width: 100vw;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
