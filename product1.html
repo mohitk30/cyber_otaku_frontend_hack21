@@ -16,7 +16,8 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- script -->
-
+    <!-- site icon -->
+    <link rel="icon" href="images/siteicon.png" type="image/gif" sizes="50x50">
 
 
     <title>Product | SMRT Drive</title>
@@ -26,7 +27,7 @@
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg  navbar-dark nav-color  fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand mx-lg-5 mx-sm-2" href="#"><strong>SMRT Drive</strong></a>
+            <a class="navbar-brand mx-lg-5 mx-sm-2" href="index.html"><img src="images/logonobg.png" alt="" width="100" height="50"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,28 +37,28 @@
                         <a class="nav-link active home-in-blue" aria-current="page" href="index.html#">Home</a>
                     </li>
                     <li class="nav-item spacing-nav">
-                        <a class="nav-link active" href="#">About us</a>
+                        <a class="nav-link active" href="index.html#aboutc">About us</a>
                     </li>
                     <li class="nav-item spacing-nav ">
-                        <a class="nav-link active" href="#">Products</a>
+                        <a class="nav-link active" href="index.html#products">Products</a>
                     </li>
                     <li class="nav-item spacing-nav">
-                        <a class="nav-link active" href="#">Services</a>
+                        <a class="nav-link active" href="index.html#services">Services</a>
                     </li>
                     <li class="nav-item spacing-nav">
-                        <a class="nav-link active" href="#">Pricing</a>
+                        <a class="nav-link active" href="index.html#pricing">Pricing</a>
                     </li>
                     <li class="nav-item spacing-nav">
-                        <a class="nav-link active" href="#">Contact us</a>
+                        <a class="nav-link active" href="index.html#contact">Contact us</a>
                     </li>
                     <li class="nav-item spacing-nav">
-                        <a class="nav-link active sign-in-green" href="#">Sign in</a>
+                        <a class="nav-link active sign-in-green" href="signin.html">Sign in</a>
                     </li>
 
                 </ul>
                 <ul class="navbar-nav  mx-lg-5 ms-0">
                     <li class="nav-item  ">
-                        <a class="nav-link active mx-lg-5  spacing-nav " href="#"><i class="fas fa-shopping-cart"></i> </a>
+                        <a class="nav-link active mx-lg-5  spacing-nav " href="cart.html"><i class="fas fa-shopping-cart"></i> </a>
                     </li>
 
                 </ul>
@@ -90,9 +91,9 @@
                     $228.42
                 </h1>
                 <p> Only 4 stocks left!</p>
-                <button class="btn btn-primary w-50">Buy Now</button>
+                <a href="cart.html"><button onclick="buy()" class="btn btn-primary w-50">Buy Now</button></a>
                 <p> $123.49 Shipping & Import Fees Deposit to India </p>
-                <p> <a href=""> Read more</a> about Product</p>
+                <p> <a href="aboutitems.html"> Read more</a> about Product</p>
             </div>
         </div>
 
@@ -206,7 +207,7 @@
         <div class="upload-photo mx-auto w-75  ">
 
             <div class="upload-img mx-auto ">
-                <a class="text-center" href="">+<br>Upload image </a>
+                <a class="text-center" href=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +<br>Upload image </a>
             </div>
 
             <div class="uploaded-img mx-auto">
@@ -269,6 +270,11 @@
 
 
     </section>
+    <script>
+        function buy() {
+            alert("We are taking you to your cart");
+        }
+    </script>
 
 
 </body>
