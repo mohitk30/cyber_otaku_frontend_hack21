@@ -1,0 +1,159 @@
+/* root */
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*changing scroll bar color*/
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #585353;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 1px;
+    border: 0.01px solid rgb(255, 255, 255);
+}
+
+
+/* nav bar */
+
+.nav-color {
+    background-color: #333333;
+    color: white;
+}
+
+.cart-icon {
+    left: 100px;
+}
+
+.spacing-nav {
+    margin-left: 20px;
+    border-bottom: 2px solid #333333;
+    overflow: hidden;
+}
+
+.spacing-nav:hover {
+    border-bottom: 2px solid rgb(245, 212, 212);
+    overflow: hidden;
+}
+
+.sign-in-green {
+    color: #42E452 !important;
+}
+
+.home-in-blue {
+    color: #5073ED !important;
+}
+
+
+/* ########################################## */
+
+
+/* footer */
+
+#footer {
+    background: url(images/footerimg.png);
+    min-height: 200px;
+    width: 99vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer-div {
+    color: white;
+}
+
+.copyright {
+    padding: 40px;
+}
+
+.address {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.social-icons {
+    padding: 40px;
+    overflow: hidden;
+}
+
+.icon-space {
+    padding: 10px;
+}
+
+.footer-div {
+    padding-left: 10vw;
+}
+
+.icon-space:hover {
+    transform: translateY(-4px);
+}
+
+
+/* ####################################### */
+
+
+/* cart-main-sec */
+
+#cart-main-sec {
+    min-height: 95vh;
+    background: rgba(27, 27, 27, 0.01);
+}
+
+.cart-div-heading {
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    color: #030303;
+}
+
+.cart-item-1 {
+    width: 75vw;
+    background-color: rgb(238, 236, 236);
+    border-radius: 16px;
+}
+
+.buy-button {
+    margin: auto;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.16);
+    box-shadow: 0px 4px 8px rgba(27, 27, 27, 0.16);
+    color: rgb(16, 158, 47);
+    border: 0px;
+    margin-bottom: 30px;
+}
+
+.heavy-font {
+    font-weight: 1000 !important;
+}
+
+.buy-button {
+    background-color: rgb(95, 175, 70);
+}
+
+.buy-button:hover {
+    background-color: #007f1c !important;
+    color: white !important;
+}
+
+.pay-link {
+    text-decoration: white;
+    text-transform: none;
+}
+
+.pay-link:hover {
+    color: white;
+}
