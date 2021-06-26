@@ -61,9 +61,12 @@ body::-webkit-scrollbar-thumb {
 /* footer */
 
 #footer {
-    background-color: black;
+    background: url(images/footerimg.png);
     min-height: 200px;
-    width: 99.5vw;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .footer-div {
@@ -109,7 +112,7 @@ body::-webkit-scrollbar-thumb {
 
 .heart-ic {
     position: absolute;
-    bottom: 100px;
+    bottom: 140px;
     left: 40px;
     height: 20px;
     width: 20px;
@@ -210,6 +213,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .uploaded-img {
+    border: 2px solid rgb(77, 37, 37);
     box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
