@@ -55,8 +55,307 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+/* ########################################## */
 
 
+/* home */
+
+.home-div {
+    margin-top: 50px;
+    background-color: #060002;
+    color: white;
+    width: 99vw;
+}
+
+.main-heading {
+    font-weight: 900 !important;
+    font-size: 60px;
+}
+
+.home-div-img {
+    height: 90vh;
+    width: 50%;
+    min-width: 500px;
+    background-image: url(images/homeimg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home-div-text {
+    padding-top: 64px;
+    padding-left: 20px;
+    background-color: #060002;
+}
+
+.tagline-1 {
+    padding-top: 20px;
+}
+
+.tagline-2 {
+    padding-top: 20px;
+    color: red;
+}
+
+
+/* ?################################################ */
+
+
+/* about us */
+
+#aboutc {
+    background-color: #F6F6F6;
+    padding: 30px;
+}
+
+#aboutc>h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: center;
+}
+
+.about-text {
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: justify;
+    width: 45vw;
+    min-width: 450px;
+    height: 352px;
+    min-height: 450px;
+}
+
+.about-img {
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about-img>img {
+    padding-top: 70px;
+    width: 450px;
+    height: 450px;
+}
+
+
+/* ################################################# */
+
+
+/* services */
+
+#services {
+    background-color: #F0F5F8;
+}
+
+#services>h1 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    text-align: center;
+    color: #000000;
+}
+
+.serv-text {
+    width: 80vw;
+    padding-top: 20px;
+    margin-left: 10vw;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+}
+
+.serv-item-div {
+    padding-top: 30px;
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+.serv-item {
+    padding-top: 20px;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.serv-item>img {
+    width: 200px;
+    height: 200px;
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+    margin-left: 150px;
+}
+
+.serv-item>h4 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.serv-item:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+
+/* ############################################################## */
+
+
+/* other products */
+
+#products {
+    background-color: #F6F6F6;
+}
+
+#products>h1 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    text-align: center;
+    color: #000000;
+}
+
+.img-w {
+    width: 400px;
+    height: 400px;
+}
+
+.slide-div {
+    padding: 40px;
+    color: black;
+}
+
+.slide-item {
+    color: black;
+}
+
+.slide-item-2 {
+    color: rgb(2, 6, 247);
+}
+
+#products>h2 {
+    padding: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #6C63FF;
+    margin-bottom: 0px !important;
+}
+
+
+/* ################################################ */
+
+
+/* pricing */
+
+#pricing {
+    background-color: #F0F5F8;
+    margin-top: 0px;
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+
+#pricing>h1 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    text-align: center;
+    color: #000000;
+}
+
+.zoom-img {
+    overflow: hidden;
+}
+
+.zoom-img img {
+    transition: transform .5s ease;
+}
+
+.zoom-img:hover img {
+    transform: scale(1.5);
+}
+
+
+/* ################################################ */
+
+
+/* contact us */
+
+#contact {
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 0px;
+    min-height: 100vh;
+    color: white;
+}
+
+#contact>h1 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#contact>h4 {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact-div {
+    width: 80vw;
+    min-width: 450px;
+    margin-left: 10vw;
+}
+
+.btn {
+    box-shadow: 0px 32px 32px -12px rgba(7, 48, 163, 0.24);
+    border-radius: 4px;
+}
+
+
+/* ################################ */
+
+
+/* counter */
+
+.counter-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.counter {
+    text-align: center;
+}
+
+.icon-counter {
+    height: 3rem;
+    width: auto;
+}
+
+.counter h3 {
+    padding: 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.counter h6 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
 
 
 /* ########################################### */
@@ -102,4 +401,55 @@ body::-webkit-scrollbar-thumb {
 
 .icon-space:hover {
     transform: translateY(-4px);
+}
+
+
+/* ####################################### */
+
+
+/* newsletter */
+
+#newsletter {
+    background-image: url(images/newsletterbg.png );
+    width: 99vw;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.news-fro>h1 {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFEFE;
+}
+
+.news-fro>h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFEFE;
+}
+
+.news-email {
+    width: 50vw;
+    min-width: 400px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+/* ############################################## */
+
+
+/* query */
+
+#query {
+    background-color: #1B50E0;
+    color: white;
 }
