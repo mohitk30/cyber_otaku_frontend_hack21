@@ -14,7 +14,7 @@ This repo will made public after ending of Hackathon.
 The mentors for the project are,
 1. Mohit kumar ([@mohitk30](https://github.com/mohitk30)) 
 2. Noamaan Abdul Azeem ([@Noamaan6688](https://github.com/Noamaan6688))  
-3. Nishant Chaudhary ([@Nishant2306](https://github.com/aksuman055)) 
+3. Nishant Chaudhary ([@Nishant2306](https://github.com/Nishant2306)) 
 4. ParthMakode ([@ParthMakode](https://github.com/ParthMakode))
 
 ## 💎 Contributors
