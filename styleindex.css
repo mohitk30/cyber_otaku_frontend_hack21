@@ -109,6 +109,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #F6F6F6;
     padding: 30px;
     width: 100vw;
+    min-width: 520px;
 }
 
 #aboutc>h1 {
