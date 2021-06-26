@@ -85,14 +85,14 @@ A quick look at the  files and directories you'll see in a this project.
 4.  **`README.md`**: This text file that you are reading right now.
 5.  **`index.html`**: This is main or landing page of website.
 6.  **`styleindex.css`**: This is main or landing page of website.
-6.  **`aboutitems.html`**: This is about page of website.
-6.  **`styleabout.css`**: This is css file for aboutitems.html of website.
-6.  **`Cart.html`**: This is  page of website in which item brought are showed.
-6.  **`cart.css`**: This is the css file for cast.html of website.
-6.  **`product1.html`**: This is 1 product page of website and simillar name for page of suffix's 2 and 3.
-6.  **`sstylep1.css`**: This is the css file for products of website and simillar css files with suffix's 2 and 3 for their respective product files.
-6.  **`blog.html`**: This is blog page of website which include complete information about product.
-6.  **`styleblog.css`**: This is css file for blog.html page of website.
+7.  **`aboutitems.html`**: This is about page of website.
+8.  **`styleabout.css`**: This is css file for aboutitems.html of website.
+9.  **`Cart.html`**: This is  page of website in which item brought are showed.
+10.  **`cart.css`**: This is the css file for cast.html of website.
+11.  **`product1.html`**: This is 1 product page of website and simillar name for page of suffix's 2 and 3.
+12.  **`sstylep1.css`**: This is the css file for products of website and simillar css files with suffix's 2 and 3 for their respective product files.
+13.  **`blog.html`**: This is blog page of website which include complete information about product.
+14.  **`styleblog.css`**: This is css file for blog.html page of website.
 
 
 
