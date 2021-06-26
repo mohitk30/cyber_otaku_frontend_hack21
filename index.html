@@ -18,19 +18,18 @@
     <!-- script -->
     <script src='main.js'>
     </script>
+    <!-- site icon -->
+    <link rel="icon" href="images/siteicon.png" type="image/gif" sizes="50x50">
 
 
     <title>Home | SMRT Drive</title>
 </head>
 
 <body>
-    
-    
     <!-- nav bar -->
-    
     <nav class="navbar navbar-expand-lg  navbar-dark nav-color  fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand mx-lg-5 mx-sm-2" href="#"><strong>SMRT Drive</strong></a>
+            <a class="navbar-brand mx-lg-5 mx-sm-2" href="#"> <img src="images/logonobg.png" alt="" width="100" height="50"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,27 +39,27 @@
                         <a class="nav-link active home-in-blue" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item spacing-nav">
-                        <a class="nav-link active" href="#">About us</a>
+                        <a class="nav-link active" href="#aboutc">About us</a>
                     </li>
                     <li class="nav-item spacing-nav ">
-                        <a class="nav-link active" href="#">Products</a>
+                        <a class="nav-link active" href="#products">Products</a>
                     </li>
                     <li class="nav-item spacing-nav">
-                        <a class="nav-link active" href="#">Services</a>
+                        <a class="nav-link active" href="#services">Services</a>
                     </li>
                     <li class="nav-item spacing-nav">
-                        <a class="nav-link active" href="#">Pricing</a>
+                        <a class="nav-link active" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item spacing-nav">
-                        <a class="nav-link active" href="#">Contact us</a>
+                        <a class="nav-link active" href="#contact">Contact us</a>
                     </li>
                     <li class="nav-item spacing-nav">
-                        <a class="nav-link active sign-in-green" href="#">Sign in</a>
+                        <a class="nav-link active sign-in-green" href="signin.html">Sign in</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav  mx-lg-5 ms-0">
                     <li class="nav-item  ">
-                        <a class="nav-link active mx-lg-5  spacing-nav " href="#"><i class="fas fa-shopping-cart"></i> </a>
+                        <a class="nav-link active mx-lg-5  spacing-nav " href="cart.html"><i class="fas fa-shopping-cart"></i> </a>
                     </li>
 
                 </ul>
@@ -68,14 +67,284 @@
         </div>
     </nav>
 
-    
-    
-    
-    
-    
-    
-<!--    footer  -->
-     <!-- footer -->
+    <!-- main -->
+
+    <!-- home -->
+    <section id="home">
+        <div class="home-div d-lg-flex flex-lg-row  ">
+            <div class="home-div-img">
+
+            </div>
+            <div class="home-div-text  py-5 mx-sm-5">
+                <h1 class="main-heading  py-5 px-sm-2">
+                    Blind Spot <br>Detection System
+                </h1>
+                <h3 class="tagline-1 px-sm-2">
+                    An integrated Solution to avoid Accidents
+                </h3>
+                <h4 class="tagline-2 px-sm-2">
+                    Smartly driving drivers towards a safe journey
+                </h4>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- about -->
+    <section id="aboutc">
+        <h1><strong> About us</strong></h1>
+        <div class="d-lg-flex flex-lg-row ">
+            <div class="about-text  ">
+                <p class="about-text-para  ">
+                    Regularly linked as the top technology innovator, our company seeks to improvise the technology we use in our daily life. Our mission is to use future technology to reduce road accidents. Our comprehensive technical expertise and lean management approach
+                    to build the best product makes us the perfect company to buy from.<br><br>"You are having Car we will try to keep it safe every time"
+                </p>
+
+            </div>
+            <div class="about-img">
+                <img class="pt-5 mt-5" src="images/aboutsideimg.png" alt="about vector">
+
+            </div>
+        </div>
+    </section>
+    <!-- services -->
+    <section id="services">
+        <h1>Our Services</h1>
+        <div class="serv-text">
+            We solve complex problems with strategy, technological innovation, and a healthy dose of dedication. Our end-to-end products offers you a backed solution made with many years of experience, standard processes, quality assurance and expertise in multiple
+            technologies. Please read more about the services we offer.
+        </div>
+        <div class="serv-item-div d-lg-flex flex-lg-row ">
+            <div class="serv-item mx-auto">
+                <img class="mx-sm-auto " src="images/servitem1.png" alt="item1">
+                <h4> Free Shipping</h4>
+            </div>
+            <div class="serv-item mx-auto">
+                <img class="mx-sm-auto " src="images/servitem2.png" alt="item2">
+                <h4> Free Installation</h4>
+            </div>
+            <div class="serv-item mx-auto">
+                <img class="mx-sm-auto " src="images/servitem3.png" alt="item3">
+                <h4> OnTime Delivery</h4>
+            </div>
+            <div class="serv-item mx-auto">
+                <img class="mx-sm-auto " src="images/servitem4.png" alt="item4">
+                <h4> Competitive Pricing</h4>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- products -->
+    <section id="products">
+        <h1>Our other Products</h1>
+        <div class="slide-div">
+
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active " data-bs-interval="1000">
+                        <img src="images/oprod1.png" class="d-block mx-auto  img-w" alt="prod1">
+                        <div class="carousel-caption slide-item d-none d-md-block">
+                            <h5> <strong> Rear Double View Blind<br> Spot Parking Mirror </strong></h5>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item   " data-bs-interval="1000">
+                        <img src="images/oprod2.png" class="d-block mx-auto img-w " alt="prod2">
+                        <div class="carousel-caption slide-item-2 d-none d-md-block">
+                            <h5> <strong> 360 ° Rotatable Blind<br> Spot Mirror </strong></h5>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item   " data-bs-interval="1000">
+                        <img src="images/oprod1.png" class="d-block mx-auto  img-w" alt="prod1">
+                        <div class="carousel-caption slide-item d-none d-md-block">
+                            <h5><strong> Rear Double View Blind <br> Spot Parking Mirror </strong></h5>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="1000">
+                        <img src="images/oprod2.png" class="d-block mx-auto img-w " alt="prod2">
+                        <div class="carousel-caption slide-item-2 d-none d-md-block">
+                            <h5> <strong> 360 ° Rotatable Blind <br> Spot Mirror </strong></h5>
+
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev    bg-light" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden slide-item">Previous</span>
+                </button>
+                <button class="carousel-control-next   bg-light" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden ">Next</span>
+                </button>
+            </div>
+
+
+
+        </div>
+        <h2> <a href="aboutitems.html">Read more why should you Buy our products </a> </h2>
+
+    </section>
+
+    <!-- pricing -->
+    <section id="pricing">
+        <h1>
+            Pricing
+        </h1>
+        <div class="row mx-5">
+            <div class="col-sm col-md-4 ">
+                <div class="card-body">
+                    <h5 class="card-title text-center "><strong>Overall best</strong> </h5>
+
+                </div>
+                <div class="card mb-3 zoom-img">
+                    <img src="images/price1.png" height="300px" class="card-img-top p-4" alt="...">
+                    <div class="card-body">
+
+                        <p class="card-text text-center"><br><br>Brandmotion Radar Blind Spot System</p>
+                        <a href="product3.html" class="btn btn-dark mx-5 w-75"> Check Price
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-md-4 ">
+                <div class="card-body">
+                    <h5 class="card-title text-center"><strong> Best Value</strong>
+                    </h5>
+
+                </div>
+                <div class="card  mb-3 zoom-img">
+                    <img src="images/price2.png" height="300px" class="card-img-top p-4" alt="...">
+                    <div class="card-body">
+
+                        <p class="card-text text-center"><br>Accele Automotive Blind Spot Sensor Detection System</p>
+                        <a href="product2.html" class="btn btn-dark mx-5 w-75">Check Price</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-md-4 ">
+                <div class="card-body">
+                    <h5 class="card-title text-center"> <strong> Mention</strong> </h5>
+
+                </div>
+                <div class="card mb-3 zoom-img">
+                    <img src="images/price3.png" height="300px" class="card-img-top p-4" alt="...">
+                    <div class="card-body  ">
+
+                        <p class="card-text text-center"><br><br>Boyo Blind Spot Detection System</p>
+                        <a href="product1.html" class="btn btn-dark mx-5 w-75 ">Check Price </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- costumers count -->
+    <section id="countersec">
+
+        <div class="container">
+
+            <div class="counter-container">
+                <div class="counter">
+                    <img src="https://raw.githubusercontent.com/nemo0/animated-counter/29e12c0cb15e90c27faaef0d83fb2618126067db/icons/iconmonstr-time-19.svg" alt="timer" srcset="" class="icon-counter">
+                    <h3 data-target="1500" class="count">0</h3>
+                    <h6>Successful Delivery</h6>
+                </div>
+                <div class="counter">
+                    <img src="https://raw.githubusercontent.com/nemo0/animated-counter/29e12c0cb15e90c27faaef0d83fb2618126067db/icons/iconmonstr-coffee-11.svg" alt="Coffee" srcset="" class="icon-counter">
+                    <h3 data-target="1200" class="count">0</h3>
+                    <h6>Happy Costumers</h6>
+                </div>
+                <div class="counter">
+                    <img src="https://raw.githubusercontent.com/nemo0/animated-counter/29e12c0cb15e90c27faaef0d83fb2618126067db/icons/iconmonstr-weather-112.svg" alt="night" srcset="" class="icon-counter">
+                    <h3 data-target="500" class="count">0</h3>
+                    <h6>Stocks left</h6>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+    <!-- contact us -->
+    <section id="contact">
+        <h1>Contact us</h1>
+        <h4>Get in touch</h4>
+        <div class="contact-div">
+            <form class="my-5">
+                <div class="row">
+                    <div class="col">
+                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                        <input type="text" class="form-control" required placeholder=" " aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" required placeholder=" " aria-label="Last name">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" required id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" required id="exampleFormControlTextarea1" placeholder="Write your query here" rows="3"></textarea>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary float-lg-end px-3 mx-sm-auto">Send Message</button>
+            </form>
+
+        </div>
+
+
+
+
+    </section>
+    <!-- newsletter -->
+
+    <section id="newsletter">
+        <div class="news-fro">
+            <h1>Sign Up For Our Newsletter</h1>
+            <h3>Technology, performance and design delivered to your inbox.</h3>
+            <div class="news-email mx-auto   ">
+                <input type="email" class="w-75 h-100 px-3">
+                <a href="" class="btn btn-primary  float-end h-100 w-25 "> <span class="pt-5 "> Send</span> </a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- query -->
+    <section id="query">
+
+        <div class="query-div px-5 ">
+
+            <h1 class="text-center pt-5"> <i class="fas fa-phone-square-alt fa-1.3x pr-sm-2 px-md-5"></i>Have a question or need a custom quote?</h1>
+
+
+            <h3 class="text-center pb-5 mb-0">
+                We are happy to meet you and have a talk in order to help you with your need needs,give us a call anytime on <span class="text-warning ">+91 0123-456-789 </span> or share your contact details and we will contact to you
+            </h3>
+
+        </div>
+
+
+
+
+    </section>
+    <!-- footer -->
     <section id="footer">
         <div class="footer-div d-lg-flex flex-lg-row ">
             <div class="copyright">
@@ -90,7 +359,7 @@
 
             </div>
             <div class="social-icons">
-                <i class="fab fa-youtube fa-2x icon-space"></i>
+                <a href="https://www.youtube.com/watch?v=B93tfG4ZydY"> <i class="fab text-light fa-youtube fa-2x icon-space"></i></a>
                 <i class="fab fa-facebook-square fa-2x  icon-space"></i>
                 <i class="fab fa-instagram   fa-2x icon-space"></i>
                 <i class="fab fa-linkedin  fa-2x icon-space"></i>
@@ -105,10 +374,29 @@
 
 
     </section>
-    
-    
-    
 
+    <!-- script -->
+    <script>
+        const counters = document.querySelectorAll(".count");
+        const speed = 300;
+
+        counters.forEach((counter) => {
+            const updateCount = () => {
+                const target = parseInt(+counter.getAttribute("data-target"));
+                const count = parseInt(+counter.innerText);
+                const increment = Math.trunc(target / speed);
+                console.log(increment);
+
+                if (count < target) {
+                    counter.innerText = count + increment;
+                    setTimeout(updateCount, 1);
+                } else {
+                    count.innerText = target;
+                }
+            };
+            updateCount();
+        });
+    </script>
 </body>
 
 </html>
