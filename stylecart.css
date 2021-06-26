@@ -63,7 +63,7 @@ body::-webkit-scrollbar-thumb {
 #footer {
     background: url(images/footerimg.png);
     min-height: 200px;
-    width: 99vw;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -108,6 +108,7 @@ body::-webkit-scrollbar-thumb {
 
 #cart-main-sec {
     min-height: 95vh;
+    width: 100vw;
     background: rgba(27, 27, 27, 0.01);
 }
 
