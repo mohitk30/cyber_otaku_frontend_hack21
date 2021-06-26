@@ -1,0 +1,176 @@
+/* root */
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*changing scroll bar color*/
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #585353;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 1px;
+    border: 0.01px solid rgb(255, 255, 255);
+}
+
+
+/* nav bar */
+
+.nav-color {
+    background-color: #333333;
+    color: white;
+}
+
+.cart-icon {
+    left: 100px;
+}
+
+.spacing-nav {
+    margin-left: 20px;
+    border-bottom: 2px solid #333333;
+    overflow: hidden;
+}
+
+.spacing-nav:hover {
+    border-bottom: 2px solid rgb(245, 212, 212);
+    overflow: hidden;
+}
+
+.sign-in-green {
+    color: #42E452 !important;
+}
+
+.home-in-blue {
+    color: #5073ED !important;
+}
+
+
+/* ######################################## */
+
+
+/* footer */
+
+#footer {
+    background: url(images/footerimg.png);
+    min-height: 200px;
+    width: 99vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer-div {
+    color: white;
+}
+
+.copyright {
+    padding: 40px;
+}
+
+.address {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.social-icons {
+    padding: 40px;
+    overflow: hidden;
+}
+
+.icon-space {
+    padding: 10px;
+}
+
+.footer-div {
+    padding-left: 10vw;
+}
+
+.icon-space:hover {
+    transform: translateY(-4px);
+}
+
+
+/* ######################################## */
+
+
+/* faq */
+
+#faq {
+    min-height: 600px;
+    background-color: rgb(255, 255, 255);
+    width: 99vw;
+    padding-top: 72px;
+}
+
+#faq h1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+}
+
+#diff-col-text {
+    color: #BD58EC;
+}
+
+.faq-div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+
+
+/* ############################################ */
+
+
+/* gallary */
+
+#product-gallary {
+    margin-top: 0px;
+    min-width: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    padding-top: 30px;
+}
+
+#product-gallary h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.gallary-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+
+.zoom-img {
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.zoom-img img {
+    transition: transform .5s ease;
+}
+
+.zoom-img:hover img {
+    transform: scale(1.5);
+}
