@@ -84,7 +84,7 @@ A quick look at the  files and directories you'll see in a this project.
 3.  **`stylesignin.css`**: This is css file for sign in page. 
 4.  **`README.md`**: This text file that you are reading right now.
 5.  **`index.html`**: This is main or landing page of website.
-6.  **`styleindex.css`**: This is main or landing page of website.
+6.  **`styleindex.css`**: This is main or landing page css file of website.
 7.  **`aboutitems.html`**: This is about page of website.
 8.  **`styleabout.css`**: This is css file for aboutitems.html of website.
 9.  **`Cart.html`**: This is  page of website in which item brought are showed.
