@@ -251,7 +251,8 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 0px !important;
 }
 .prod-name {
-    color: rgb(106, 241, 124);
+    padding-bottom: 245px;
+    color: rgb(0, 0, 0);
 }
 
 /* ################################################ */
