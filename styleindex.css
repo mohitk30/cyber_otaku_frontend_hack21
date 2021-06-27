@@ -249,7 +249,9 @@ body::-webkit-scrollbar-thumb {
     color: #6C63FF;
     margin-bottom: 0px !important;
 }
-
+.prod-name {
+    color: rgb(106, 241, 124);
+}
 
 /* ################################################ */
 
