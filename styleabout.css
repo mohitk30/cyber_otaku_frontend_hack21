@@ -120,6 +120,15 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
     color: #000000;
 }
+.faq-heading {
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+}
+
 
 #diff-col-text {
     color: #BD58EC;
