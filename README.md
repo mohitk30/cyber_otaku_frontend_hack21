@@ -29,7 +29,7 @@ Contribution can be access to all after ending of Hackathon 2k21,
 
 1.  **Setup**
 
-    The repository is built with  Html5,css3, js,Bootstrap, so you need no install or download any special thing. 
+    The repository is built with  Html5,css3 so you need no install or download any special thing. 
 
 2.  **Configuration.**
 
